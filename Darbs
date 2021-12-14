@@ -1,3 +1,12 @@
+a = int(input("Cik punkti ir pirmam spēlētājam: "))
+b = int(input("Cik punkti ir otram spēlētājam: "))
+if a>b:
+  print("Uzvar pirmais")
+elif a<b:
+  print("Uzvar otrais")
+else:
+  print("Neizšķirts")
+
 print("Ievadi a:")
 a = int(input())
 print("Ievadi b:")
