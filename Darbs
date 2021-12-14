@@ -1,3 +1,13 @@
+Cena = 2.35
+a = 0.10
+d = int(input("Ievadi daudzumu (vesels skaitlis): "))
+if d>=2:
+  i = Cena*d*a
+  print("Jāmaksa ar atlaidi: ", i)
+else:
+  i = Cena*d
+  print("Jāmaksa: ", i)
+
 a = int(input("Cik punkti ir pirmam spēlētājam: "))
 b = int(input("Cik punkti ir otram spēlētājam: "))
 if a>b:
